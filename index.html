@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Harsh</title>
+</head>
+<body>
+<div id="container">
+    <div id="topbar">
+        <div id="backarrow"></div>
+        <div id="avatar"></div>
+        <div id="Name">Anonymous</div>
+        <div id="lastseen">Last Seen Today 11:00 AM</div>
+        <img src="video.png" id="video">
+        <img src="call.png" id="call">
+        <img src="menus.png" id="menu">
+    </div>
+    <div id="conversation">
+        <div class="msgbox">HI<div class="time">1:00 pm
+        </div> </div><br><br><br> <div class="msgbox">HI<div class="time">1:00 pm
+    </div> </div>
+    </div>
+    <div id="bottom">
+        <input type="text" id="msg" onfocus="mic.src = 'send.png'" onfocusout="mic.src = 'MIC.png'" placeholder="Type a message">
+        <img id="emoji" src="smiley.png">
+        <img src="File%20attacher.png" id="file">
+        <img src="photo.png" id="pic">
+        <img src="MIC.png" onclick="verify();;conversation.scrollTop = conversation.scrollHeight;" onfocus="mic.src = 'send.png'" onfocusout="mic.src = 'MIC.png'" id="mic">
+    </div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
