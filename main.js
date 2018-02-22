@@ -6,7 +6,7 @@ var count = 0;
 document.addEventListener('keydown',function (ev) { if(ev.keyCode === 13){verify();conversation.scrollTop = conversation.scrollHeight}},false);
 
   function verify() {
-      count += 0;
+      count += 1;
   
         var msg = document.getElementById('msg');
         if(msg.value === '') {
